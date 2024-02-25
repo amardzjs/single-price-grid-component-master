@@ -1,0 +1,209 @@
+body
+{
+    margin:0px;
+    background-color:#e6eff6;
+    font-family: "Karla", sans-serif;
+    
+}
+
+:root
+{
+    --primary:hsl(179, 52%, 38%);
+    --primarysec:hsl(71, 73%, 54%);
+    --secondary:hsl(204, 43%, 93%);
+    --seco:hsl(218, 22%, 67%);
+
+
+}
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container
+{
+ width:968px;
+ margin:auto;
+ height:100vh;
+ display:flex;
+ align-items:center;
+ justify-content: center;
+ flex-direction: column;
+ border-radius:2px;
+ 
+}
+
+
+
+.card,.cardtwo
+{
+    width:70%;
+    height:40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.card
+{
+ display:flex;
+ flex-direction:column;
+ align-items:flex-start;
+ justify-content: center;
+ padding-left:20px;
+ background-color:white;
+
+
+
+}
+
+
+
+.card h3
+{
+    font-size:25px;
+    color:var(--primary);
+}
+
+.card h4
+{
+    font-size:20px;
+    margin-top:-5px;
+    color:var(--primarysec);
+}
+
+
+.card p
+{
+    max-width:90%;
+    margin-top:-5px;
+    color:var(--seco);
+    font-weight:400;
+
+}
+
+
+
+
+
+
+
+
+
+.cardtwo
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+
+.subs
+{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    background-color: #2bb3b1;
+    height:100%;
+    
+}
+
+
+.subs h3
+{
+    margin-left:35px;
+
+}
+
+.subs h4
+{
+    color:var(--secondary);
+    margin-left:35px;
+
+
+}
+#per
+{
+    color:#c4c4cc;
+
+}
+
+.whyus
+{
+    flex:1;
+}
+
+
+
+.cardtwo h3
+{
+    font-size:20px;
+    color:var(--secondary)
+
+}
+
+
+
+#price
+{
+    font-size:25px;
+    font-weight:400;
+    color:var(--secondary);
+    margin-left:35px;
+
+
+}
+
+
+.btn
+{
+    padding:20px;
+    width:80%;
+    margin:0 auto;
+    background-color:var(--primarysec);
+    text-align: center;
+    font-weight:700;
+    color:var(--secondary);
+    border-radius:7px;
+
+
+}
+
+
+.whyus
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    height:100%;
+    background-color:#4abebd;
+    flex:1;
+
+}
+
+
+
+.whyus h4
+{
+    margin-left:40px;
+    font-size:20px;
+    margin-top:2px;
+    color:var(--secondary);
+
+}
+
+.whyus p
+{
+    margin-left:40px;
+    max-width:60%;
+    margin-top:-20px;
+    color:var(--secondary);
+
+
+}
